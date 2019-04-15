@@ -45,6 +45,8 @@
 		059EA71D1EACB8790072C0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059EA71C1EACB8790072C0FE /* AppDelegate.swift */; };
 		059EA7241EACB8790072C0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059EA7231EACB8790072C0FE /* Assets.xcassets */; };
 		059EA7271EACB8790072C0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059EA7251EACB8790072C0FE /* LaunchScreen.storyboard */; };
+		0DEDA5E522645E1000099BA6 /* Glyphter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DEDA5E422645E0200099BA6 /* Glyphter.ttf */; };
+		0DEDA5E72264630D00099BA6 /* UIImage+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEDA5E62264630D00099BA6 /* UIImage+Rotate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		059EA7231EACB8790072C0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059EA7261EACB8790072C0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059EA7281EACB8790072C0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEDA5E422645E0200099BA6 /* Glyphter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glyphter.ttf; sourceTree = "<group>"; };
+		0DEDA5E62264630D00099BA6 /* UIImage+Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				0565130F1EF489B4009EA38F /* UIImage+Size.swift */,
 				056513101EF489B4009EA38F /* UIImageView+Alpha.swift */,
 				056513111EF489B4009EA38F /* UIView+Image.swift */,
+				0DEDA5E422645E0200099BA6 /* Glyphter.ttf */,
 				056513121EF489B4009EA38F /* Protocols.swift */,
 				056513131EF489B4009EA38F /* GradientView.swift */,
 				056513141EF489B4009EA38F /* CropView.swift */,
@@ -159,6 +164,7 @@
 				059EA7231EACB8790072C0FE /* Assets.xcassets */,
 				059EA7251EACB8790072C0FE /* LaunchScreen.storyboard */,
 				059EA7281EACB8790072C0FE /* Info.plist */,
+				0DEDA5E62264630D00099BA6 /* UIImage+Rotate.swift */,
 			);
 			path = "Photo Editor";
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 				056513341EF489C0009EA38F /* StickersViewController.xib in Resources */,
 				056513361EF489C0009EA38F /* EmojiCollectionViewCell.xib in Resources */,
 				056513391EF489C0009EA38F /* PhotoCropEditorBorder.png in Resources */,
+				0DEDA5E522645E1000099BA6 /* Glyphter.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 				056513241EF489B4009EA38F /* GradientView.swift in Sources */,
 				059EA71D1EACB8790072C0FE /* AppDelegate.swift in Sources */,
 				0565134B1EF489CD009EA38F /* PhotoEditor+Controls.swift in Sources */,
+				0DEDA5E72264630D00099BA6 /* UIImage+Rotate.swift in Sources */,
 				056513211EF489B4009EA38F /* UIImageView+Alpha.swift in Sources */,
 				056513291EF489B4009EA38F /* ResizeControl.swift in Sources */,
 			);

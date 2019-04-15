@@ -38,7 +38,17 @@ extension PhotoEditorViewController {
     }
 
     @IBAction func stickersButtonTapped(_ sender: Any) {
-        addStickersViewController()
+        DispatchQueue.main.async(execute: {
+            let imageOrig = self.imageView.toImage()
+            self.clearButtonTapped(self)
+            
+            let image = imageOrig.rotate(radians:  .pi/2)!
+            self.imageView.image = image
+            self.image = image
+            
+            let size = image.suitableSize(widthLimit: UIScreen.main.bounds.width)
+            self.imageViewHeightConstraint.constant = (size?.height)!
+        })
     }
 
     @IBAction func drawButtonTapped(_ sender: Any) {
